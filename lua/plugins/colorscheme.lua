@@ -1,8 +1,11 @@
 return {
-  "rebelot/kanagawa.nvim",
-  lazy = true,
-  priority = 1000,
-  opts = {
-    transparent = false,
-  },
+  "rose-pine/neovim",
+  name = "rose-pine",
+  config = function()
+    require("rose-pine").setup({
+      styles = {
+        transparency = true,
+      },
+    })
+  end,
 }

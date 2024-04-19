@@ -1,11 +1,8 @@
 return {
-  "rose-pine/neovim",
-  name = "rose-pine",
-  config = function()
-    require("rose-pine").setup({
-      styles = {
-        transparency = true,
-      },
-    })
-  end,
+  "ellisonleao/gruvbox.nvim",
+  name = "gruvbox",
+  config = true,
+  opts = {
+    transparent_mode = true,
+  },
 }

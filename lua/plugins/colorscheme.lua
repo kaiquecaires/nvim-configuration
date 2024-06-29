@@ -1,8 +1,6 @@
 return {
-  "ellisonleao/gruvbox.nvim",
-  name = "gruvbox",
+  "rebelot/kanagawa.nvim",
+  name = "kanagawa",
   config = true,
-  opts = {
-    transparent_mode = true,
-  },
+  opts = {},
 }

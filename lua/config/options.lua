@@ -8,16 +8,5 @@ vim.api.nvim_create_autocmd({ "FileType" }, {
   end,
 })
 
--- Autocmd for InsertLeave event
-vim.api.nvim_exec(
-  [[
-  augroup luasnip_autocmds
-    autocmd!
-    autocmd InsertLeave * lua if require("luasnip").session.current_nodes[vim.api.nvim_get_current_buf()] then require("luasnip").unlink_current() end
-  augroup END
-]],
-  false
-)
-
 vim.opt.scrolloff = 8
 vim.opt.colorcolumn = "80"

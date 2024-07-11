@@ -1,6 +1,9 @@
 return {
-  "rebelot/kanagawa.nvim",
-  name = "kanagawa",
-  config = true,
-  opts = {},
+  "rose-pine/neovim",
+  name = "rose-pine",
+  opts = {
+    styles = {
+      transparency = true,
+    },
+  },
 }

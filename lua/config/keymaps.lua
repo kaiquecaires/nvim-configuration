@@ -7,6 +7,7 @@ vim.g.mapleader = " "
 vim.keymap.set("n", "<leader>lg", ":Telescope live_grep<CR>", { noremap = true, silent = true })
 vim.keymap.set("n", "<leader>fs", ":Telescope find_files<CR>", { noremap = true, silent = true })
 vim.keymap.set("n", "<leader>ts", ":Telescope<CR>", { noremap = true, silent = true })
+vim.keymap.set("n", "<leader>fl", ":Telescope current_buffer_fuzzy_find<CR>", { noremap = true, silent = true })
 
 -- split window
 vim.keymap.set("n", "ss", ":split<Return>", { noremap = true, silent = true })

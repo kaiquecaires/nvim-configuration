@@ -1,9 +1,14 @@
+-- return { "EdenEast/nightfox.nvim" } -- lazy
+-- return { "rebelot/kanagawa.nvim" }
+-- return { "projekt0n/github-nvim-theme" }
 return {
-  "rose-pine/neovim",
-  name = "rose-pine",
+  "AlexvZyl/nordic.nvim",
   opts = {
-    styles = {
-      transparency = true,
+    transparent = {
+      -- Enable transparent background.
+      bg = true,
+      -- Enable transparent background for floating windows.
+      float = true,
     },
   },
 }
